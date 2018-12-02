@@ -18,7 +18,7 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  box-shadow: 0px 30px -20px rgba(0, 0, 0, 1),
+  box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 1),
     inset 0 0 0 1000px rgba(67, 52, 109, 0.6);
   transition: all 0.4s cubic-bezier(0.37, 0.26, 0.109, 0.2);
 }
@@ -32,10 +32,6 @@ body {
   width: 200px;
   height: 200px;
 }
-#card:hover #profile {
-  opacity: 1;
-  bottom: 0;
-}
 #profile {
   transition: all 0.5s cubic-bezier(0.37, 0.26, 0.35, 1);
   opacity: 0;
@@ -43,6 +39,11 @@ body {
   bottom: 20px;
   width: 100%;
 }
+#card:hover #profile {
+  opacity: 1;
+  bottom: 0;
+}
+
 #profile h1 {
   color: white;
   padding: 0;
