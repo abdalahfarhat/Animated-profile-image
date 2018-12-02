@@ -71,3 +71,18 @@ body {
   border-radius: 100%;
   box-shadow: 0px 30px 30px -25px rgba(0, 0, 0, 0.6);
 }
+
+@keyframes circleAn {
+  0% {
+    box-shadow: 0px 30px 30px -25px rgba(0, 0, 0, 0.6),
+      0px 0px 0px 0px rgba(102, 52, 105, 1),
+      0px 0px 0px 0px rgba(102, 52, 105, 0.7),
+      0px 0px 0px 0px rgba(102, 52, 105, 0.5);
+  }
+  100% {
+    box-shadow: 0px 30px 30px -25px rgba(0, 0, 0, 0.6),
+      0px 0px 0px 70px rgba(102, 52, 105, 0),
+      0px 0px 0px 200px rgba(102, 52, 105, 0),
+      0px 0px 0px 300px rgba(102, 52, 105, 0);
+  }
+}
